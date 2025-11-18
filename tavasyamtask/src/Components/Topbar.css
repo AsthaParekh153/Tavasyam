@@ -1,0 +1,52 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-bottom: 0px solid #e5e7eb;
+  margin-top: 10px;
+}
+.greetings {
+  margin-left: 14px;
+}
+.greetings1 {
+  font-weight: 400;
+  font-size: 10px;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: -10px;
+  color: #64748B;
+}
+.welcome{
+  color: #475569;
+  font-size: 16px;
+  font-weight: 600;
+ font-family: "Manrope", sans-serif;
+}
+.search-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #f3f4f6;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.search-box input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.top-icons {
+  margin-right: 10px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

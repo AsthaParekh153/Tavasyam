@@ -1,0 +1,129 @@
+.goals {
+  margin-top: 20px;
+}
+
+/* Header */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-row h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #475569;
+  font-family: Manrope, sans-serif;
+}
+
+.header-row .view-all {
+  color: #f5650b;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* White Goal Cards */
+.goal-card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 14px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.goal-info h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.goal-info p {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #475569;
+}
+
+.tag {
+  background: #fff7ed;
+  padding: 6px 14px;
+  color: #f97316;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #fde7d3;
+}
+
+/* Purple Premium Box */
+.promo-card {
+  background: linear-gradient(135deg, #7c6dd7, #c4baff);
+  border-radius: 20px;
+  padding: 12px;
+  margin-top: 25px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  width: 285px;
+  height: 192px;
+}
+
+.promo-text {
+  width: 60%;
+}
+
+.promo-text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.promo-text p {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 15px;
+}
+
+.upgrade-btn {
+  background-color: #F97316;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.promo-img {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.promo-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.fitness {
+  width: 80%;
+  height: 50%;
+}
+.promotion-txt {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Manrope, sans-serif;
+  width: 300px;
+}
+.promo-desc{
+  font-size: 12px;
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+}

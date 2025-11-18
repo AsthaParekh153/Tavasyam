@@ -1,0 +1,84 @@
+body {
+  background: #eef6ff;
+}
+
+.schedule {
+  font-family: Manrope, sans-serif;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color:#475569;
+  font-family: Manrope, sans-serif;
+}
+
+.view-all {
+  font-size: 14px;
+  color: #f97316;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.schedule-card {
+  width: 280px;
+  height: 75px;
+  background: white;
+  padding: 16px;
+  border-radius: 22px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.day {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #475569;
+}
+
+.content-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pose-img {
+  width: 55px;
+  height: auto;
+}
+
+.text-section {
+  flex-grow: 1;
+}
+
+.activity {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1E293B;
+}
+
+.time {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #94a3b8;
+}
+
+.tag {
+  background: #fff7ed;
+  padding: 8px 14px;
+  color: #f97316;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: Manrope, sans-serif;
+}

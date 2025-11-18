@@ -1,0 +1,30 @@
+.text {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chart-card {
+  background: white;
+  padding: 8px;
+  border-radius: 16px;
+  margin-top: 15px;
+  border: 1px solid #e5e7eb;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.dropdown {
+  margin-right: 12px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Manrope, sans-serif;
+  color: #64748b;
+}

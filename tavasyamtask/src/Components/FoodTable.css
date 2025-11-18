@@ -1,0 +1,62 @@
+.food-table-container {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-weight: 700;
+  padding: 12px 5px;
+  color: #454445;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: Manrope, sans-serif;
+}
+
+.food-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 8px 5px;
+  border-radius: 12px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.food-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.food-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #f9fafb;
+  padding: 5px;
+}
+
+.food-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: #475569;
+  text-align: center;
+}
+
+.meal,
+.calories,
+.time,
+.carbs {
+  color: #4b5563;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  font-family: Manrope, sans-serif;
+
+}
