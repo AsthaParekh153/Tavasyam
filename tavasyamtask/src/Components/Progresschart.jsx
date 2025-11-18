@@ -1,4 +1,4 @@
-import "./ProgressChart.css";
+import "./Progresschart.css";
 import {
   BarChart,
   Bar,
